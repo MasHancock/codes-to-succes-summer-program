@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    height: 10%;
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header >.header-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header >.header-wrapper> .left-column{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-left: 20px;
+    
+}
+.header >.header-wrapper> .left-column> img{
+    width: 100%;
+    
+}
+
+.header >.header-wrapper> .center-column{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+ 
+}
+
+.header >.header-wrapper> .right-column{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.header >.header-wrapper> .right-column>.button-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header >.header-wrapper> .right-column>.button-wrapper>.header-button{
+    text-decoration: none;
+    color: white;
+    width:25%;
+    height: 70%;
+    background-color: rgb(90, 90, 90);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+.header >.header-wrapper> .right-column>.button-wrapper>#search{
+    background-color: black;
+    font-size: 2em;
+    color: rgb(49, 49, 49);
+    width: 10%;
+}
+.header >.header-wrapper> .right-column>.button-wrapper>#create{
+    width: 40%;
+}
+#chev{
+    color: lawngreen;
+    padding-left: 15px;
+}
+
+
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    
+
+}
+
+.bottom-row > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.top-row {
+    color: gold;
+    font-size: 1.06em;
+}   
+
+.center-column {
+    font-size: 1.25em;
+
+}

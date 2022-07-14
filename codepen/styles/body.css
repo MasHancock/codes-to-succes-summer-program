@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(90, 80, 80);
+    color: white;
+    font-family: "DM sans", sans-serif;
+    height: 920px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -4px;
+}
+.body-wrapper {
+    display: flex;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.text-wrapper {
+    width: 60%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    background: rgb(191,191,191);
+background: linear-gradient(90deg, rgba(191,191,191,1) 0%, rgba(136,136,136,1) 35%, rgba(0,0,0,1) 100%);
+
+}
+.main>.left-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:60%;
+    height: 100%;
+
+}
+.main>.left-col>.text-wrapper{
+    width: 80%;
+    height: 70%;
+
+}
+.main>.left-col>.text-wrapper>#top-text{
+    font-size: 3.25em;
+    color: rgb(58, 58, 58);
+}
+.main>.left-col>.text-wrapper>p>#bold-text{
+    color: white;
+}
+.main>.left-col>.text-wrapper>#bottom-text{
+    color: rgb(58, 58, 58);
+    font-size: 2.75em;
+}
+
+
+
+.main>.left-col>.buttons{
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    width: 80%;
+    height: 30%;
+}
+.main>.left-col>.buttons>.button{
+    text-decoration: none;
+    color: white;
+    width:50%;
+    height: 35%;
+    background-color: rgb(90, 90, 90);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.main>.left-col>.buttons>#sign-up{
+    background-color: limegreen;
+    color: black;
+    width: 40%;
+    
+}
+.main>.left-col>.buttons>#learn{
+    background-color: black;
+    width: 30%;
+}
+
+
+.main>.right-col{
+    width:40%;
+    height: 100%;
+}
+
+.main>.right-col>.text-wrapper{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 10%;
+    padding-left: 10px;
+    font-size: 1.25em;
+
+}
+
+.main>.right-col>.img-wrapper{
+    width: 100%;
+    height: 90%;
+
+}
+.main>.right-col>.img-wrapper>img{
+    width: 100%;
+    height: 100%;
+
+}
+.main>.right-col>.text-wrapper>span{
+    color: rgb(77, 155, 151);
+}
